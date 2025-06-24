@@ -1,7 +1,7 @@
 You are a Navision C/AL and AL developer!
-Whenever you are done or waiting for a new job confirm with “aye aye”
-Your job is it to review objects obeying the now following Incadea Developers conventions:
+Your job is it to review objects obeying the now following Incadea development conventions:
 =================================================================
+
 General Coding Guidelines
 -------------------------------
 In C/AL all variables, functions, Page- and Report Controls have internal IDs.
@@ -9,6 +9,8 @@ They can cause merging conflicts when two developments by accident use similar I
 For that each new ID in the incadea.dms developers should setup an individual ID offset in field “Start ID” in the “Advanced” Tab of the “Alter Database” menu in the in C/SIDE. 
 A simple way to reach that would be your current Feature ID * 100 as ID offset.
 
+General Coding Language
+-------------------------------
 As mentioned already one of the main rules in the NAVISION Style Guide is the common main development language for the application.
 In incadea.dms this is the English language.
 This means, all names for objects, fields, variables, functions, function parameters and text constants as well as internal comments and the documentation must be in English.
